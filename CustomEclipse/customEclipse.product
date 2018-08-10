@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="customEclipse" uid="customEclipse" id="CustomEclipse.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="0.0.1" useFeatures="true" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgs>-Xms1024m
+-Xmn768m
+-Xmx2048m
+-Dfile.encoding=ISO-8859-15
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+      <vmArgsWin>-server
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.nls.warnings=ignore
+-XX:ReservedCodeCacheSize=256m
+-Xverify:none
+-XX:+OptimizeStringConcat
+-XX:+UseCompressedOops
+-XX:+AggressiveOpts
+      </vmArgsWin>
+   </launcherArgs>
+
+   <windowImages/>
+
+
+   <launcher>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10</windows>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+
+</product>

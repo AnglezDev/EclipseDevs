@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CustomEclipse
+Bundle-SymbolicName: CustomEclipse;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: CustomEclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-10
